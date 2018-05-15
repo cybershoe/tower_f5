@@ -3,7 +3,7 @@
   bigip_license:
     user: "{{ username }}"
     password: "{{ password }}"
-    server: "{{ inventory_hostname }}"
+    server: "{{ ansible_host }}"
     key: "{{ key }}"
     validate_certs: "no"
   delegate_to: localhost
