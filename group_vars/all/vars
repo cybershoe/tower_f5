@@ -1,5 +1,5 @@
 ---
   username: "admin"
-  password: "{{ vault_password }}"
+  password: "Temp123"
   bigip_default_admin_password: "admin"
 ...
