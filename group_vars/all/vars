@@ -1,5 +1,5 @@
 ---
-  username: "{{ ansible_username}}"
-  password: "{{ ansible_password }}"
+  username: "admin"
+  password: "{{ vault_password }}"
   bigip_default_admin_password: "admin"
 ...
