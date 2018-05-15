@@ -5,6 +5,4 @@
       - "../group_vars/all/vars"
     roles:
       - onboarding
-    environment:
-      F5_VALIDATE_CERTS: no
 ...
