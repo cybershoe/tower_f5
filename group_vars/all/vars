@@ -1,3 +1,5 @@
 ---
+  username: "{{ ansible_username}}"
   password: "{{ ansible_password }}"
+  bigip_default_admin_password: "admin"
 ...

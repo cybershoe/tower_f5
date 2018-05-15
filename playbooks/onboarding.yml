@@ -1,8 +1,10 @@
 ---
-  - hosts: all
+  - hosts: bigip
     gather_facts: False
     vars_files:
       - "../group_vars/all/vault"
     roles:
       - onboarding
+    environment:
+      F5_VALIDATE_CERTS: no
 ...
