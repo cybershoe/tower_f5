@@ -1,5 +1,6 @@
 ---
   - hosts: bigip
+    connection: local
     gather_facts: False
     vars_files:
       - "../group_vars/all/vars"
